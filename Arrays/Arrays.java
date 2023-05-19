@@ -5,5 +5,10 @@ public class Arrays {
         int[] xi = {1, 2, 3};
         System.out.println(xi[1]);
         System.out.println(xi.length);
+
+        xi[0] = 22;
+        for (int i : xi) {
+            System.out.printf("Index values: %s\n", i);
+        }
     }
 }
