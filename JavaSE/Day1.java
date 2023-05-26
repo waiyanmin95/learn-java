@@ -14,6 +14,12 @@ public class Day1 {
 
         boolean flag = true;
         flag = false;
+
+        if (flag) {
+            System.out.println("Flag is true");
+        } else {
+            System.out.println("Flag is false");
+        }
         System.out.println("flag = " + flag);
 
         // Binary
@@ -35,13 +41,16 @@ public class Day1 {
         b = 0b111;
         System.out.println("b = " + b);
 
-        b = 123_345_789;
+        b = 123_345_666;
         System.out.println("b = " + b);
 
         // 0.3*10^2
         // Scientific Notation
         double d = .3E3;
         System.out.println("d = " + d);
+
+        d = 9_112_222.1_0_9;
+        System.out.println("d Big = " + d);
 
         float price = 3.8f;
         b = (int) price;
