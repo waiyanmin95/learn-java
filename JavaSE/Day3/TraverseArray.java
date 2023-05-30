@@ -1,4 +1,4 @@
-package JavaSE;
+package JavaSE.Day3;
 
 import java.util.Arrays;
 
@@ -13,7 +13,8 @@ public class TraverseArray {
         };
         System.out.println("arr = " + Arrays.toString(arr));
 
-        // Same same "var xi = new int[][]"
+        // MultiDimensional Array or Array of Array
+        // Same as "var xi = new int[][]"
         int[][] xi = new int[][]{
                 {1, 2, 3, 4, 5, 100, 11},
                 {10, 11, 12, 23, 33}
@@ -24,6 +25,11 @@ public class TraverseArray {
             for (int j = 0; j < xi[i].length; j++)
                 System.out.println("Inner: [" + i + "] [" + j + "] " + xi[i][j]);
 
+        }
+
+        var xxi = new int[5];
+        for (int index : xxi) {
+            System.out.println("index = " + index);
         }
     }
 

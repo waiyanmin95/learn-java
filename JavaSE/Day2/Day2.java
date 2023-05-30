@@ -1,4 +1,4 @@
-package JavaSE;
+package JavaSE.Day2;
 
 import java.util.Arrays;
 

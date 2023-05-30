@@ -1,4 +1,4 @@
-package JavaSE;
+package JavaSE.Day1;
 
 public class Day1 {
     public static void main(String[] args) {
@@ -56,9 +56,12 @@ public class Day1 {
         b = (int) price;
         System.out.println("b = " + b);
 
+        // Type Casting // Small Type < Big Type ( Force ) // Risk Data Loss
         byte b1 = 10;
         byte c1 = 20;
 
+        // ( Operations ) Byte, Short, Int -> Auto Promote to Int and Operate ( Force )
+        // Destination < Source
         c1 = (byte) (b1 + 1);
         System.out.println("C1: " + c1);
     }
