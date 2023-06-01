@@ -1,4 +1,4 @@
-package JavaSE.Day4;
+package JavaSE.Day4Operators;
 
 // BitWise => Number Type
 public class BitWiseOperators {

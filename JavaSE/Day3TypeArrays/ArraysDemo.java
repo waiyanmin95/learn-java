@@ -1,4 +1,4 @@
-package JavaSE.Day3;
+package JavaSE.Day3TypeArrays;
 
 public class ArraysDemo {
     public static void main(String[] args) {

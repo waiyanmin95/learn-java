@@ -1,4 +1,4 @@
-package JavaSE.Day4;
+package JavaSE.Day4Operators;
 
 import java.util.Scanner;
 

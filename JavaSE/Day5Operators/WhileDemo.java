@@ -1,4 +1,4 @@
-package JavaSE.Day5;
+package JavaSE.Day5Operators;
 
 public class WhileDemo {
     public static void main(String[] args) {

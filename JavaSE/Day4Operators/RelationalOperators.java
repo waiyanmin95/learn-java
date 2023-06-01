@@ -1,4 +1,4 @@
-package JavaSE.Day4;
+package JavaSE.Day4Operators;
 
 public class RelationalOperators {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package JavaSE.Day3;
+package JavaSE.Day3TypeArrays;
 
 public class DefaultValuesDemo {
     boolean t;

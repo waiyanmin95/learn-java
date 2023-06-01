@@ -1,4 +1,4 @@
-package JavaSE.Day1;
+package JavaSE.Day1IntroSyntax;
 
 public class Day1 {
     public static void main(String[] args) {
