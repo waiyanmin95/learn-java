@@ -6,6 +6,7 @@ public class Day2 {
     public static void main(String[] args) {
         int[] xi = new int[7];
 
+        xi[6] = 10;
         // Printout with Strings
         System.out.println("XI = " + Arrays.toString(xi));
         System.out.println("XI = " + Arrays.toString(xi).length());
