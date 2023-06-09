@@ -6,17 +6,22 @@ class Account {
     // long balanace = 0;
 
     // Encapsulated
+    // Access Controlled
     private long balance = 0;
 
     void debit(int amount) {
         if (amount >= 0 && amount <= balance) {
             this.balance -= amount;
+        } else {
+            System.out.println("Invalid debit operation");
         }
     }
 
     void credit(int amount) {
         if (amount >= 0) {
             this.balance += amount;
+        } else {
+            System.out.println("Invalid credit operation");
         }
     }
 
@@ -32,8 +37,9 @@ public class AccountDemo {
         acc.debit(2000);
         acc.credit(5000);
         acc.credit(5000);
-        // Invalid Operation
+        // Test Invalid Operations
         acc.debit(100000);
+        acc.credit(-5000);
         System.out.println("Account " + acc);
     }
 }
