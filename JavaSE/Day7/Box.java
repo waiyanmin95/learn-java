@@ -3,6 +3,7 @@ package JavaSE.Day7;
 public class Box {
     double width, height, depth;
 
+    // Constructor ( Special Method )
     public Box(double width, double height, double depth) {
         this.width = width;
         this.height = height;

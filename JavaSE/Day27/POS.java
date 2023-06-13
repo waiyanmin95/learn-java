@@ -3,12 +3,12 @@ package JavaSE.Day27;
 import javax.swing.*;
 import java.awt.event.*;
 
-public class HelloWorld extends JDialog {
+public class POS extends JDialog {
     private JPanel contentPane;
     private JButton buttonOK;
     private JButton buttonCancel;
 
-    public HelloWorld() {
+    public POS() {
         setContentPane(contentPane);
         setModal(true);
         getRootPane().setDefaultButton(buttonOK);
@@ -52,7 +52,7 @@ public class HelloWorld extends JDialog {
     }
 
     public static void main(String[] args) {
-        HelloWorld dialog = new HelloWorld();
+        POS dialog = new POS();
         dialog.pack();
         dialog.setVisible(true);
         System.exit(0);
