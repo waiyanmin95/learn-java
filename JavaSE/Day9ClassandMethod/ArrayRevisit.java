@@ -1,4 +1,4 @@
-package JavaSE.Day9;
+package JavaSE.Day9ClassandMethod;
 
 public class ArrayRevisit {
     public static void main(String[] args) {

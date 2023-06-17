@@ -1,4 +1,4 @@
-package JavaSE.Day8;
+package JavaSE.Day8ClassandMethod;
 
 public class Factorial {
     static int fact(int num) {

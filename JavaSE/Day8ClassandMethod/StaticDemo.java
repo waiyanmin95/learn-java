@@ -1,4 +1,4 @@
-package JavaSE.Day8;
+package JavaSE.Day8ClassandMethod;
 
 public class StaticDemo {
     int count;

@@ -1,4 +1,4 @@
-package JavaSE.Day9;
+package JavaSE.Day9ClassandMethod;
 
 class Outer {
     int outerX = 100;
