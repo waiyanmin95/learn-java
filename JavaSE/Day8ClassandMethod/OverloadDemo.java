@@ -1,7 +1,8 @@
 package JavaSE.Day8ClassandMethod;
 
 public class OverloadDemo {
-    // Method Overriding Resolution
+    // Method Overloading Resolution
+    // Method Overloading | Compile Time Polymorphism | Static Method Dispatch
     // Constructors
 
     public OverloadDemo() {
