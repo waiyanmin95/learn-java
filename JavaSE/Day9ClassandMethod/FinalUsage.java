@@ -25,7 +25,7 @@ public class FinalUsage {
         // Cannot override
         /*
         final void method() {
-            System.out.println("Cannot Override");
+            System.out.println("Trying to Override but can't");
         }
          */
     }

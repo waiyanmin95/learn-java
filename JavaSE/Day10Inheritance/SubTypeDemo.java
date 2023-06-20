@@ -7,31 +7,50 @@ class Human {
 }
 
 class Teacher extends Human {
+    @Override
     void work() {
         System.out.println("Teacher Teach Students");
+    }
+
+    void tuition() {
+        System.out.println("Teacher Teach Tuition");
     }
 }
 
 class Doctor extends Human {
+    @Override
+        // Override Annotation
     void work() {
         System.out.println("Doctor Care Patients");
+    }
+}
+
+class Specialist extends Doctor {
+    @Override
+    void work() {
+        System.out.println("Specialist Treat Patients");
     }
 }
 
 public class SubTypeDemo {
 
     public static void main(String[] args) {
-        // Reusable, Already Tested by community, Already Improved, More Functional
-        // Polymorphism Requirements
-        // 1. Inheritance
-        // 2. Variation
-        // 3. Declare Super Reference with Sub Object
+        // Method Override ?
+        // Same Signature ( Parameter[name,type], Method )
         Human h = new Teacher();
         // Depends on 'h' Object, change behaviour
         h.work();
+        System.out.println(h.getClass());
+        ((Teacher) h).tuition();
 
         h = new Doctor();
         // Depends on 'h' Object, change behaviour
         h.work();
+        System.out.println(h.getClass());
+
+        h = new Specialist();
+        // Depends on 'h' Object, change behaviour
+        h.work();
+        System.out.println(h.getClass());
     }
 }
