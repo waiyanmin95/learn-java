@@ -9,7 +9,7 @@ class NewThread implements Runnable {
         this.name = name;
         this.thread = new Thread(this);
         this.suspendFlag = false;
-        this.thread.start();
+        this.thread.start(); // No need factory method
     }
 
     @Override
