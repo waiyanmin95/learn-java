@@ -2,7 +2,7 @@ package JavaSE.Synchronizers;
 
 // Generally > Multi Producers, Single Consumer
 // Like its name, countdown 5,4,3,2,1
-// await(), when equal zero (0), unlocked/start
+// await(), when equal zero (0), unlocked/resume
 
 
 // Pseudocode
