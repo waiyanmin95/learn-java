@@ -25,9 +25,11 @@ public class People {
         milo.bark();
         silo.meow();
         silo.getName();
+        silo.getColor();
 
         System.out.println(john);
         System.out.printf("Pet Name: %s\n", john.getPet().getName());
+        System.out.printf("Pet Color: %s\n", john.getPet().getColor());
     }
 
 }
