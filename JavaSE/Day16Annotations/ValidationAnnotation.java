@@ -1,9 +1,12 @@
 package JavaSE.Day16Annotations;
 
+import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 import java.lang.reflect.Field;
 
+@Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
 @interface NotNull {
     String message() default "Field should not be null";
@@ -20,7 +23,7 @@ class Another {
     @NotNull(message = "Something should not be null")
     String something;
 
-    //@NotNull
+    // @NotNull, // Invalid Annotation Target
     void method() {
     }
 }
@@ -35,19 +38,17 @@ class Validator {
 
             NotNull getAnnotation = field.getAnnotation(NotNull.class);
             System.out.println(getAnnotation);
-//            if (notNull != null) {
-//                //System.out.println("Not Null");
-//                try {
-//                    Object value = field.get(object);
-//                    if (value == null) {
-//                        System.err.println("Field " + field.getName() + " is null " + notNull.message());
-//                    }
-//                } catch (IllegalArgumentException ex) {
-//                    ex.printStackTrace();
-//                } catch (IllegalAccessException ex) {
-//                    ex.printStackTrace();
-//                }
-//            }
+            if (getAnnotation != null) {
+                //System.out.println("Not Null");
+                try {
+                    Object value = field.get(object);
+                    if (value == null) {
+                        System.err.println("Field " + field.getName() + " is null " + getAnnotation.message());
+                    }
+                } catch (IllegalArgumentException | IllegalAccessException ex) {
+                    ex.printStackTrace();
+                }
+            }
             System.out.println("------------------------");
         }
     }
