@@ -1,4 +1,4 @@
-package JavaSE.Day3TypeArrays;
+package turing.JavaSE.Day3TypeArrays;
 
 public class FloatingPointProblems {
     public static void main(String[] args) {

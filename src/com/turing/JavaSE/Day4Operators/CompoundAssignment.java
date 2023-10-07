@@ -1,4 +1,4 @@
-package JavaSE.Day4Operators;
+package turing.JavaSE.Day4Operators;
 
 public class CompoundAssignment {
     public static void main(String[] args) {

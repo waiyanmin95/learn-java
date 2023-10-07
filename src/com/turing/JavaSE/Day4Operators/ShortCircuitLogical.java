@@ -1,4 +1,4 @@
-package JavaSE.Day4Operators;
+package turing.JavaSE.Day4Operators;
 
 public class ShortCircuitLogical {
     static boolean getFalse() {

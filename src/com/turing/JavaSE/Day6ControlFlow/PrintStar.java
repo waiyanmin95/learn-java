@@ -1,4 +1,4 @@
-package JavaSE.Day6ControlFlow;
+package turing.JavaSE.Day6ControlFlow;
 
 public class PrintStar {
     public static void main(String[] args) {

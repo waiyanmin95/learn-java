@@ -1,4 +1,4 @@
-package JavaSE.Day6ControlFlow;
+package turing.JavaSE.Day6ControlFlow;
 
 import java.util.Random;
 import java.util.Scanner;

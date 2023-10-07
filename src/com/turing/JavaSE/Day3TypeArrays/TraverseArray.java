@@ -1,4 +1,4 @@
-package JavaSE.Day3TypeArrays;
+package turing.JavaSE.Day3TypeArrays;
 
 import java.util.Arrays;
 
