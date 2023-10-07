@@ -1,4 +1,4 @@
-package JavaSE.Day15Enum;
+package turing.JavaSE.Day15Enum;
 
 public class WhyEnumDemo {
     public static void main(String[] args) {

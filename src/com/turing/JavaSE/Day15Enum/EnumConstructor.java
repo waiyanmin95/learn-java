@@ -1,4 +1,4 @@
-package JavaSE.Day15Enum;
+package turing.JavaSE.Day15Enum;
 
 enum Size {
     XLARGE(5), SMALL(1), MEDIUM(2), LARGE(3), XXLARGE(1);

@@ -1,4 +1,4 @@
-package Day1;
+package random.Day1;
 
 import java.util.Arrays;
 

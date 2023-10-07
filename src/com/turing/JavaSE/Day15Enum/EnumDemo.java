@@ -1,4 +1,4 @@
-package JavaSE.Day15Enum;
+package turing.JavaSE.Day15Enum;
 
 enum Gender {
     // An enumeration is a list of named constants
