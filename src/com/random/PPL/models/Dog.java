@@ -1,4 +1,4 @@
-package PPL.models;
+package random.PPL.models;
 
 public class Dog extends Pet {
 

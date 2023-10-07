@@ -1,8 +1,8 @@
-package PPL;
+package random.PPL;
 
-import PPL.models.Cat;
-import PPL.models.Dog;
-import PPL.models.Person;
+import random.PPL.models.Cat;
+import random.PPL.models.Dog;
+import random.PPL.models.Person;
 
 import java.time.LocalDate;
 

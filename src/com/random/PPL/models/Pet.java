@@ -1,4 +1,4 @@
-package PPL.models;
+package random.PPL.models;
 
 public class Pet {
     private String name;

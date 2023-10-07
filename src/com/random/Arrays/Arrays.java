@@ -1,4 +1,4 @@
-package Arrays;
+package random.Arrays;
 
 public class Arrays {
     public static void main(String[] args) {

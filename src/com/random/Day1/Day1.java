@@ -25,7 +25,7 @@ public class Day1 {
     }
 
     // getSum method will return the sum of two integers
-    // No print out need to print from the main
+    // No print-out need to print from the main
     public int getSum(int num1, int num2) {
         return num1 + num2;
     }

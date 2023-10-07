@@ -1,4 +1,4 @@
-package JavaSE.Day2Types;
+package turing.JavaSE.Day2Types;
 
 import java.util.Arrays;
 
