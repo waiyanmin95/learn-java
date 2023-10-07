@@ -29,6 +29,7 @@ public class Pet {
         this.color = color;
     }
 
+
     @Override
     public String toString() {
         return "Pet{" +
@@ -37,3 +38,4 @@ public class Pet {
                 '}';
     }
 }
+
