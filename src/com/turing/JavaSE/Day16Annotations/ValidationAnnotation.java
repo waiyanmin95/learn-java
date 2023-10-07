@@ -1,4 +1,4 @@
-package JavaSE.Day16Annotations;
+package turing.JavaSE.Day16Annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

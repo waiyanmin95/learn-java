@@ -1,4 +1,4 @@
-package JavaSE.Day16Annotations;
+package turing.JavaSE.Day16Annotations;
 
 public class AssertDemo {
     public static void main(String[] args) {
