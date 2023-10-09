@@ -1,4 +1,4 @@
-package JavaSE.Day9ClassandMethod;
+package turing.JavaSE.Day9ClassandMethod;
 
 public class VariableLengthArgs {
     // Static Method no need to construct

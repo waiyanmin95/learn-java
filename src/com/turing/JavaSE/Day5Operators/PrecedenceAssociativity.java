@@ -1,4 +1,4 @@
-package JavaSE.Day5Operators;
+package turing.JavaSE.Day5Operators;
 
 public class PrecedenceAssociativity {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package JavaSE.Day5Operators;
+package turing.JavaSE.Day5Operators;
 
 import java.util.Scanner;
 

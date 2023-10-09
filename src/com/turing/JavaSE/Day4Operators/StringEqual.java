@@ -10,7 +10,7 @@ public class StringEqual {
 
         System.out.println("Compare two String (s1 == s2) = " + (s1 == s2));
 
-        // Create new memory object
+        // Create a new memory object
         String s3 = new String("Hello");
         System.out.println("Compare with new (s1 == s3) = " + (s1 == s3));
 

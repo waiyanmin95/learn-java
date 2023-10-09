@@ -1,4 +1,4 @@
-package JavaSE.Day9ClassandMethod;
+package turing.JavaSE.Day9ClassandMethod;
 
 class Point2D {
     // Case 1: Static variable

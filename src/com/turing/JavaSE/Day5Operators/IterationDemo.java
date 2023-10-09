@@ -1,4 +1,4 @@
-package JavaSE.Day5Operators;
+package turing.JavaSE.Day5Operators;
 
 public class IterationDemo {
     public static void main(String[] args) {
