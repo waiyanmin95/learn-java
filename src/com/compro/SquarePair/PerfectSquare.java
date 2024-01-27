@@ -3,7 +3,7 @@ package compro.SquarePair;
 public class PerfectSquare {
     public static int isPerfectSquare(int n) {
         int temp = (int) Math.floor(Math.sqrt(n));
-        if ( temp * temp == n) {
+        if ( temp * temp == n ) {
             return 1;
         }
         return 0;
