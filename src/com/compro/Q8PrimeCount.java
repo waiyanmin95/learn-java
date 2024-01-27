@@ -26,6 +26,7 @@ public class Q8PrimeCount {
     }
 
     public static void main(String[] args) {
-        System.out.println(primeCount(1, 100));
+        System.out.println(primeCount(19, 23));
+        System.out.println(isPrime(19));
     }
 }
