@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BLogicalOperators {
     public static void main(String[] args) {
-        // Scanner Object create > Get the input from the console > assign the input to a varriable
+        // Scanner Object creates > Get the input from the console > assign the input to a varriable
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your age: ");
         int age = scan.nextInt();

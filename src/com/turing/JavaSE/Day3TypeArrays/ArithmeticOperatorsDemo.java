@@ -45,7 +45,7 @@ public class ArithmeticOperatorsDemo {
         // Check Invalid == Invalid // false
         System.out.println("Compare Invalid = " + (invalid == invalid));
 
-        // Operation with NaN // NaN ( Invalid Number/Not a Number)
+        // Operation with NaN // NaN (Invalid Number/Not a Number)
         System.out.println("Invalid Operation with others = " + (invalid + 10));
 
         // Check a Number is NaN
