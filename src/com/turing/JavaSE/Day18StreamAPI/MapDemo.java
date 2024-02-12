@@ -1,4 +1,4 @@
-package JavaSE.Day18StreamAPI;
+package turing.JavaSE.Day18StreamAPI;
 
 import java.util.ArrayList;
 import java.util.List;

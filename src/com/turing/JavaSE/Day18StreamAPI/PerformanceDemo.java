@@ -1,9 +1,8 @@
-package JavaSE.Day18StreamAPI;
+package turing.JavaSE.Day18StreamAPI;
 
 import java.util.ArrayList;
 import java.util.Optional;
 import java.util.Random;
-import java.util.stream.Stream;
 
 public class PerformanceDemo {
     public static void main(String[] args) {

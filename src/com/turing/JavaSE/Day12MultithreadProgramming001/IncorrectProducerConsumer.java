@@ -1,4 +1,4 @@
-package JavaSE.Day12MultithreadProgramming001;
+package turing.JavaSE.Day12MultithreadProgramming001;
 
 class Queue {
     int n;

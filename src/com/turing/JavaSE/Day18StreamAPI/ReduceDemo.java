@@ -1,7 +1,6 @@
-package JavaSE.Day18StreamAPI;
+package turing.JavaSE.Day18StreamAPI;
 
 import java.util.ArrayList;
-import java.util.Optional;
 
 public class ReduceDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package JavaSE.Day11Exceptions;
+package turing.JavaSE.Day11Exceptions;
 
 public class FinallyDemo {
     // Check condition and validate then throw Exception

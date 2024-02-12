@@ -1,8 +1,8 @@
-package JavaSE.Day11Exceptions;
+package turing.JavaSE.Day11Exceptions;
 
 public class ExceptionDemoWithFinally {
     // Check condition and validate then throw Exception
-    // Rethrow ( provide a more meaningful ) exception when that's not for you.
+    // Rethrow (provide a more meaningful) exception when that's not for you.
     static double div(double a, double b) throws RuntimeException {
         try {
             if (Double.isNaN(a) || Double.isNaN(b)) {

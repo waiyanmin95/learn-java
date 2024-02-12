@@ -1,4 +1,4 @@
-package JavaSE.Day11Exceptions;
+package turing.JavaSE.Day11Exceptions;
 
 class StackOverFlowException extends Exception {
     public StackOverFlowException(String message) {

@@ -1,4 +1,4 @@
-package JavaSE.Day11Exceptions;
+package turing.JavaSE.Day11Exceptions;
 
 public class BuildInException {
     public static void main(String[] args) {
