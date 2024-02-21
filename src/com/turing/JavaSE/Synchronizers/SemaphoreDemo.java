@@ -1,4 +1,4 @@
-package JavaSE.Synchronizers;
+package turing.JavaSE.Synchronizers;
 
 // Generally > Permit Threads
 // permit = 3

@@ -1,4 +1,4 @@
-package JavaSE.Synchronizers;
+package turing.JavaSE.Synchronizers;
 
 // Generally > Multi Producers, Single Consumer
 // Like its name, countdown 5,4,3,2,1

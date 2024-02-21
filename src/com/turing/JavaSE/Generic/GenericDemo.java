@@ -1,4 +1,4 @@
-package JavaSE.Generic;
+package turing.JavaSE.Generic;
 
 import java.util.ArrayList;
 
