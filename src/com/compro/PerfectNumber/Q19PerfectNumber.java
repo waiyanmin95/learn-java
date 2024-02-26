@@ -19,7 +19,7 @@ public class Q19PerfectNumber {
     public static int henry(int i, int j) {
         int number = 0;
         List<Integer> xi = new ArrayList<>();
-        for (int k = 0; k < 8200; k++) {
+        for (int k = 0; k < 10000; k++) {
             if ( isPerfectNumber(k) ) {
                 number = k;
                 xi.add(number);
@@ -33,6 +33,6 @@ public class Q19PerfectNumber {
     }
 
     public static void main(String[] args) {
-        System.out.println(henry(1, 4));
+        System.out.println(henry(1, 3));
     }
 }

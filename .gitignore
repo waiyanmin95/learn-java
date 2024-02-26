@@ -1,5 +1,6 @@
 ### IntelliJ IDEA ###
 out/
+**/src/com/out/
 !**/src/com/**/out/
 !**/src/test/**/out/
 
