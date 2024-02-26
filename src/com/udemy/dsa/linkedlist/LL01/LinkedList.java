@@ -9,6 +9,7 @@ public class LinkedList {
     static class Node {
         int value;
         Node next;
+
         public Node(int value) {
             this.value = value;
         }
@@ -51,7 +52,7 @@ public class LinkedList {
 
     public void append(int value) {
         Node newNode = new Node(value);
-        if ( length == 0 ) {
+        if (length == 0) {
             head = newNode;
         } else {
             tail.next = newNode;
@@ -61,7 +62,7 @@ public class LinkedList {
     }
 
     public Node removeLast() {
-        if ( length == 0 ) {
+        if (length == 0) {
             return null;
         }
         Node temp = head;
@@ -73,7 +74,7 @@ public class LinkedList {
         tail = pre;
         tail.next = null;
         length--;
-        if ( length == 0 ) {
+        if (length == 0) {
             head = null;
             tail = null;
         }
@@ -82,7 +83,7 @@ public class LinkedList {
 
     public void prepend(int value) {
         Node newNode = new Node(value);
-        if ( length != 0 ) {
+        if (length != 0) {
             newNode.next = head;
             head = newNode;
         } else {
@@ -93,20 +94,36 @@ public class LinkedList {
     }
 
     public Node removeFirst() {
-        if ( length == 0 ) {
+        if (length == 0) {
             return null;
         }
         Node temp = head;
         head = head.next;
         temp.next = null; // *completely remove link*
         length--;
-        if ( head.next == null ) {
-            head = null;
+        if (length == 0) {
             tail = null;
-            return temp;
         }
         return temp;
     }
+
+    public Node get(int index) {
+        Node temp = head;
+        if (index >= length || index < 0) {
+            return null;
+        }
+        for (int i = 0; i < index; i++) {
+            temp = temp.next;
+        }
+        return temp;
+    }
+
+    public boolean set(int index, int value) {
+        Node temp = get(index);
+        if (temp != null) {
+            temp.value = value;
+            return true;
+        }
+        return false;
+    }
 }
-
-
