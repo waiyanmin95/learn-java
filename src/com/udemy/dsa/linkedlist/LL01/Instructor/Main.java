@@ -1,4 +1,4 @@
-package dsa.linkedlist.LL01;
+package dsa.linkedlist.LL01.Instructor;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,6 +24,13 @@ public class Main {
         System.out.println("Setting: "+myLinkedList.set(1, 100));
         myLinkedList.getHead();
         myLinkedList.getTail();
+        myLinkedList.printList();
+
+        System.out.println("=======");
+        myLinkedList.remove(2);
+
+        System.out.println("=======");
+        myLinkedList.reverse();
         myLinkedList.printList();
     }
 }
