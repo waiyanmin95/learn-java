@@ -20,5 +20,4 @@ public class Main {
         myLinkedList.printAll();
         System.out.println("Middle Value: "+myLinkedList.findMiddleNode().value);
     }
-
 }
