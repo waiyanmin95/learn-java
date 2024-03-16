@@ -73,7 +73,7 @@ private Node tail;
             tail = null;
         } else {
             tail = tail.prev;
-            temp.next = null;
+            tail.next = null;
             temp.prev = null;
         }
         length--;
