@@ -7,7 +7,7 @@ public class ArraySumSafe {
         }
         int sum = 0;
         for (int i = 0; i < a.length; i++) {
-            sum = sum + a[i];
+            sum += a[i];
         }
         
         for (int i = 0; i < a.length ; i++) {

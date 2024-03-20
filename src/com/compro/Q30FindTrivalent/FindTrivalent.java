@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class FindTrivalent {
     public static int isTrivalent(int[] a) {
-        if ( a.length < 3 ) {
+        if ( a.length < 3 ) { // check base case
             return 0;
         }
         HashSet<Integer> set = new HashSet<>();
@@ -18,7 +18,7 @@ public class FindTrivalent {
     }
 
     public static void main(String[] args) {
-        int[] invalid1 = new int[]{1, 2,};
+        int[] invalid1 = new int[]{1, 2};
         int[] test1 = new int[]{1, 2, 3, 4, 8, 1};
         int[] test2 = new int[]{1, 2, 3, 2, 2, 1, 3};
         System.out.println(isTrivalent(test1));

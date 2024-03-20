@@ -42,13 +42,13 @@ public class Q4HollowArrayZero {
         }
     }
     public static void main(String[] args) {
-        int[] test1 = {1,2,3,0,0,0,3,2,1};
-        int[] test2 = {1,2,3,0,0,3,2,1};
-        int[] test3 = {1,2,3,0,0,0,0,3,2,1};
-        int[] test4 = {1,0,3,0,0,0,3,2,1};
-        int[] test5 = {1,3,0,0,0,3,2,1};
-        int[] test6 = {1,2,3,0,0,0,3,2};
-        int[] allzero = {0,0,0,0,0,0,0,0}; // edge case
+        int[] test1 = {1, 2, 3, 0, 0, 0, 3, 2, 1};
+        int[] test2 = {1, 2, 3, 0, 0, 3, 2, 1};
+        int[] test3 = {1, 2, 3, 0, 0, 0, 0, 3, 2, 1};
+        int[] test4 = {1, 0, 3, 0, 0, 0, 3, 2, 1};
+        int[] test5 = {1, 3, 0, 0, 0, 3, 2, 1};
+        int[] test6 = {1, 2, 3, 0, 0, 0, 3, 2};
+        int[] allzero = {0, 0, 0, 0, 0, 0, 0, 0}; // edge case
 
         System.out.println(isHollow(test1)); // true 1
         System.out.println(isHollow(test2)); // false 0

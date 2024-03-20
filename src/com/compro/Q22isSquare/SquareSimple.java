@@ -6,6 +6,7 @@ public class SquareSimple {
             return false;
         }
         for (int i = 1; i <= n/2; i++) {
+            System.out.println(i);
             if (i * i == n) {
                 return true;
             }
@@ -14,7 +15,8 @@ public class SquareSimple {
     }
 
     public static void main(String[] args) {
-        System.out.println(isSquare(81));
-        System.out.println(isSquare(100));
+        System.out.println(isSquare(81)); // true
+        System.out.println(isSquare(100)); // true
+        System.out.println(isSquare(77)); // false
     }
 }
