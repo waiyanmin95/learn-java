@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Q10Findinertial {
     static int isInertialGod(int[] a) {
-        if(a.length <= 0) {
+        if(a.length < 2) {
             return 0;
         }
         //find the odd
