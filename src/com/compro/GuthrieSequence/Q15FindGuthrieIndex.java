@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Q15FindGuthrieIndex {
     public static int findGuthrineSequence(int n) {
-        if ( n < 0 ) {
+        if ( n <= 0 ) {
             return 0;
         }
         List<Integer> check = new ArrayList<>();
@@ -28,5 +28,6 @@ public class Q15FindGuthrieIndex {
     public static void main(String[] args) {
         System.out.println("Result: "+findGuthrineSequence(7));
         System.out.println("Result: "+findGuthrineSequence(5));
+        System.out.println("Result: "+findGuthrineSequence(0));
     }
 }
