@@ -14,10 +14,10 @@ public class Divisible {
     }
 
     public static void main(String[] args) {
-        int[] test1 = { 22, 44 , 66, 88, 100};
-        int[] test2 = { 23, 43 , 63, 83, 103};
-        int[] naked = { };
-        int[] one = { 4 };
+        int[] test1 = new int[]{ 22, 44 , 66, 88, 100 };
+        int[] test2 = new int[]{ 23, 43 , 63, 83, 103 };
+        int[] naked = new int[]{};
+        int[] one = new int[]{4};
         System.out.println(isDivisible(test1, 2));
         System.out.println(isDivisible(test1, 3));
         System.out.println(isDivisible(test2, 4));

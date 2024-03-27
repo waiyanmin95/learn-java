@@ -3,9 +3,8 @@ package compro.Sample;
 public class Q11repsEqual {
     public static int repsEqual(int[] a, int n) {
         int sum = 0;
-        int j = a.length - 1;
         for (int i = 0; i < a.length; i++) {
-            sum += (int) (a[i] * Math.pow(10, j--));
+            sum += (int) (a[i] * Math.pow(10, a.length - i - 1));
         }
         return sum == n ? 1: 0;
     }
