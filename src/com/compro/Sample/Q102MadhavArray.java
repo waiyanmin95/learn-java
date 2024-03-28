@@ -1,6 +1,6 @@
 package compro.Sample;
 
-public class Q2MadhavArray { //todo
+public class Q102MadhavArray { //todo
     public static int isMadhavArray(int[] a) {
         int n = 2;
         boolean isCorrectLength = false;

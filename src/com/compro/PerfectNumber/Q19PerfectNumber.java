@@ -19,7 +19,7 @@ public class Q19PerfectNumber {
     public static int henry(int i, int j) {
         int number = 0;
         List<Integer> xi = new ArrayList<>();
-        for (int k = 0; k < 10000; k++) {
+        for (int k = 0; k < Integer.MAX_VALUE; k++) {
             if ( isPerfectNumber(k) ) {
                 number = k;
                 xi.add(number);

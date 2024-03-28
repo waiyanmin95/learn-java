@@ -1,6 +1,6 @@
 package compro.Sample;
 
-public class Q1PrimeCount {
+public class Q101PrimeCount {
 //    public static boolean isPrime(int n) {
 //        int count = 0;
 //        for (int i = 1; i <= n ; i++) {
