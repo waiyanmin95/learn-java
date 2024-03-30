@@ -1,6 +1,6 @@
 package compro.Sample;
 
-public class Q7StantonMeasure {
+public class Q301StantonMeasure {
     public static int stantonMeasure(int[] a) {
         if ( a.length == 0 ) {
             return 0;

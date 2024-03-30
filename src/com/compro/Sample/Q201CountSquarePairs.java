@@ -1,6 +1,6 @@
 package compro.Sample;
 
-public class Q4CountSquarePairs {
+public class Q201CountSquarePairs {
     public static int isPerfectSquare(int n) {
         if ( n <= 0 ) {
             return 0;

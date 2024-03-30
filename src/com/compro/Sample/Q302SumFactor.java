@@ -1,6 +1,6 @@
 package compro.Sample;
 
-public class Q8SumFactor {
+public class Q302SumFactor {
     public static int sumFactor(int[] a) {
         if ( a.length == 0 ) {
             return 0;

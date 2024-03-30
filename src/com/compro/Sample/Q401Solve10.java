@@ -2,7 +2,7 @@ package compro.Sample;
 
 import java.util.Arrays;
 
-public class Q10Solve10 {
+public class Q401Solve10 {
 
     public static int[] solve10() {
         int[] result = new int[2];

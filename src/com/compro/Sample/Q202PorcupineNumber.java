@@ -1,6 +1,6 @@
 package compro.Sample;
 
-public class Q5PorcupineNumber {
+public class Q202PorcupineNumber {
     public static int isPrime(int n) {
         if ( n <= 1 ) {
             return 0;

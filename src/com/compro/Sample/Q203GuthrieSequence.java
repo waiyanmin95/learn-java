@@ -1,8 +1,8 @@
 package compro.Sample;
 
-public class Q6GuthrieSequence {
+public class Q203GuthrieSequence {
     public static int isGuthrieSequence(int[] a) {
-        if ( a.length < 2 || a[a.length -1 ] != 1) {
+        if ( a.length < 2 || a[a.length - 1] != 1) {
             return 0;
         }
         for (int i = 0; i < a.length-1; i++) {

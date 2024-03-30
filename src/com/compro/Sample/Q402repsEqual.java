@@ -1,6 +1,6 @@
 package compro.Sample;
 
-public class Q11repsEqual {
+public class Q402repsEqual {
     public static int repsEqual(int[] a, int n) {
         int sum = 0;
         for (int i = 0; i < a.length; i++) {

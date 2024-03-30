@@ -1,6 +1,6 @@
 package compro.Sample;
 
-public class Q9GuthrieIndex {
+public class Q303GuthrieIndex {
     public static int GuthrieIndex(int n) {
         if ( n <= 0 ) {
             return 0;

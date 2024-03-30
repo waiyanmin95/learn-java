@@ -1,6 +1,6 @@
 package compro.Sample;
 
-public class Q14PerfectNumberHenry {
+public class Q501PerfectNumberHenry {
     public static boolean perfectNumber(int n) {
         int total = 0;
         for (int i = n/2; i >= 1; i--) {
@@ -28,8 +28,8 @@ public class Q14PerfectNumberHenry {
     }
 
     public static void main(String[] args) {
-//        System.out.println(perfectNumber(6));
-//        System.out.println(perfectResult(4));
+        System.out.println(perfectNumber(6));
+        System.out.println(perfectResult(1));
         System.out.println(henry(0, 2));
     }
 }

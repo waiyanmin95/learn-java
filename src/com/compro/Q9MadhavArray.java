@@ -15,7 +15,7 @@ public class Q9MadhavArray {
         }
 
         for (int i = 2; i < arr.length; i++) {
-            if (arr.length == i *(i + 1)/2) {
+            if ( arr.length == i *( i + 1 ) / 2) {
                 int index = 0;
                 boolean flag = true;
                 for (int j = 1; j <= i; j++) {

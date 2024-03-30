@@ -2,7 +2,7 @@ package compro.Sample;
 
 import java.util.ArrayList;
 
-public class Q3isInertial {
+public class Q103isInertial {
     public static int isInertial(int[] a) {
         if ( a.length == 0 ) {
             return 0;
