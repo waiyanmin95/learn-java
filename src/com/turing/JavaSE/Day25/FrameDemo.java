@@ -1,4 +1,4 @@
-package JavaSE.Day25;
+package turing.JavaSE.Day25;
 
 import java.awt.*;
 

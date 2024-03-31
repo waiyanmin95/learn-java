@@ -1,4 +1,4 @@
-package JavaSE.Day24;
+package turing.JavaSE.Day24;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

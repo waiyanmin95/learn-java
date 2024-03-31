@@ -1,4 +1,4 @@
-package JavaSE.Day10Inheritance;
+package turing.JavaSE.Day10Inheritance;
 
 interface JobLevel {
     // Defined variables in interface implicitly become FINAL ( Constant )

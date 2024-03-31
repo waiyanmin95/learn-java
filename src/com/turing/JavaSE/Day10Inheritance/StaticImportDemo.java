@@ -1,4 +1,4 @@
-package JavaSE.Day10Inheritance;
+package turing.JavaSE.Day10Inheritance;
 
 import static java.lang.Math.min;
 

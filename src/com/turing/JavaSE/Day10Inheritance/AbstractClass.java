@@ -1,4 +1,4 @@
-package JavaSE.Day10Inheritance;
+package turing.JavaSE.Day10Inheritance;
 
 // Abstract Class -> Enforce SubClass should contain exact method
 // - No Method Body > a.k.a > No Implementation

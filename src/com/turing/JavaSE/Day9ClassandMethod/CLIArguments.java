@@ -1,4 +1,4 @@
-package JavaSE.Day9ClassandMethod;
+package turing.JavaSE.Day9ClassandMethod;
 
 public class CLIArguments {
     public static void main(String[] args) {

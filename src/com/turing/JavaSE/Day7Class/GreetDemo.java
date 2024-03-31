@@ -1,4 +1,4 @@
-package JavaSE.Day7Class;
+package turing.JavaSE.Day7Class;
 
 public class GreetDemo {
     String greet(String name) {

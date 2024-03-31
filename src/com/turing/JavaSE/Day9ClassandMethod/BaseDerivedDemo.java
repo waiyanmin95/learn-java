@@ -1,4 +1,4 @@
-package JavaSE.Day9ClassandMethod;
+package turing.JavaSE.Day9ClassandMethod;
 
 class Parent {
     int a; // Default => Package Access

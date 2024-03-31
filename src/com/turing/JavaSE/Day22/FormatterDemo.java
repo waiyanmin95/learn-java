@@ -1,4 +1,4 @@
-package JavaSE.Day22;
+package turing.JavaSE.Day22;
 
 import java.util.Date;
 import java.util.Formatter;

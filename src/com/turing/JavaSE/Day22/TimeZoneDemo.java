@@ -1,4 +1,4 @@
-package JavaSE.Day22;
+package turing.JavaSE.Day22;
 
 public class TimeZoneDemo {
     public static void main(String[] args) {

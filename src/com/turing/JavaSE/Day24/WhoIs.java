@@ -1,4 +1,4 @@
-package JavaSE.Day24;
+package turing.JavaSE.Day24;
 
 import java.io.IOException;
 import java.io.InputStream;

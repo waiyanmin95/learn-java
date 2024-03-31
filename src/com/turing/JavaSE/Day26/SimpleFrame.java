@@ -1,4 +1,4 @@
-package JavaSE.Day26;
+package turing.JavaSE.Day26;
 
 import java.awt.*;
 import java.awt.event.WindowAdapter;

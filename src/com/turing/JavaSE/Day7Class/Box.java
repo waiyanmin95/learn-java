@@ -1,4 +1,4 @@
-package JavaSE.Day7Class;
+package turing.JavaSE.Day7Class;
 
 public class Box {
     double width, height, depth;
