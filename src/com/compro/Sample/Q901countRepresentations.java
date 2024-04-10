@@ -32,7 +32,7 @@ public class Q901countRepresentations {
         int time = 0;
         // r20 formula n / 20
         for (int r20 = 0; r20 <= n/20; r20++) {
-            // r10 formula ( n - ( r20 * 20) / 10
+            // r10 formula ( n - ( r20 * 20)) / 10 )
             for (int r10 = 0; r10 <= (n - (r20 * 20))/10; r10++) {
                 // r5 formula ( n - ( r10 * 10 + r20 * 20) / 5
                 for (int r5 = 0; r5 <= (n - (r10 * 10 + r20 * 20))/5; r5++) {

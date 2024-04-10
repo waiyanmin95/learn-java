@@ -1,6 +1,6 @@
 package compro.Sample;
 
-public class Q901isSequentiallyBounded {
+public class Q902isSequentiallyBounded {
     public static int isSequentiallyBounded(int[] a) {
         if ( a.length == 1 && a[0] <= 1 ) {
             return 0;
