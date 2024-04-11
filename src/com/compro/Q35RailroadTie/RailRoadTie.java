@@ -5,9 +5,7 @@ public class RailRoadTie {
         if ( a.length == 0 || a[0] == 0 || a[a.length-1] == 0) {
             return 0;
         }
-        int nonzeroIndex = 0;
         int zeroIndex = 0;
-        int nonzeroCount = 0;
         int zeroCount = 0;
         for (int i = 0; i < a.length; i++) {
             if ( a[i] == 0 ) {
@@ -16,9 +14,6 @@ public class RailRoadTie {
                 if ( a[zeroIndex+1] == 0 || a[zeroIndex-1] == 0) {
                     return 0;
                 }
-            } else {
-                nonzeroCount++;
-                nonzeroIndex = i;
             }
         }
         if ( zeroCount == 0 ) {
