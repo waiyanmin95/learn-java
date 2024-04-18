@@ -3,7 +3,7 @@ package random.Arrays;
 public class ReverseNumber {
     public static int noArray(int n) {
         int sign = 1;
-        if ( n < 0 ) {
+        if (n < 0) {
             sign = -1;
             n = -n;
         }

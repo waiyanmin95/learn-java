@@ -2,28 +2,28 @@ package compro.Sample;
 
 public class Q1003isRailroadTie {
     public static int isRailroadTie(int[] a) {
-        if ( a.length == 0 || a[0] == 0 || a[a.length-1] == 0 ) {
+        if (a.length == 0 || a[0] == 0 || a[a.length - 1] == 0) {
             return 0;
         }
 
-        if ( ( a.length - 5 ) % 3 != 0 ) {
+        if ((a.length - 5) % 3 != 0) {
             return 0;
         }
 
         int nonZeroCount = 0;
         for (int i = 0; i < a.length; i++) {
-            if ( a[i] != 0 ) {
+            if (a[i] != 0) {
                 nonZeroCount++;
             }
         }
-        if ( nonZeroCount < 1 ) {
+        if (nonZeroCount < 1) {
             return 0;
         }
 
         // zeroIndex Pattern 2+=3
         // consider i as the zeroIndex
-        for (int i = 2; i < a.length ; i+=3) {
-            if ( a[i-1] == 0 || a[i-2] == 0 || a[i+1] == 0 || a[i+2] == 0 || a[i] != 0 ) {
+        for (int i = 2; i < a.length; i += 3) {
+            if (a[i - 1] == 0 || a[i - 2] == 0 || a[i + 1] == 0 || a[i + 2] == 0 || a[i] != 0) {
                 return 0;
             }
         }

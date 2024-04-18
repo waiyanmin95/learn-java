@@ -11,52 +11,52 @@ public class Q801isIsolated {
         long square = n * n;
         long cube = square * n;
 
-        if ( cube > Long.MAX_VALUE) {
+        if (cube > Long.MAX_VALUE) {
             return -1;
         }
         List<Long> cubeList = new ArrayList<>();
-        while ( cube > 0) {
-            cubeList.add(cube%10);
+        while (cube > 0) {
+            cubeList.add(cube % 10);
             cube /= 10;
         }
 
         List<Long> squareList = new ArrayList<>();
-        while ( square > 0) {
-            squareList.add(square%10);
+        while (square > 0) {
+            squareList.add(square % 10);
             square /= 10;
         }
 
         for (int i = 0; i < cubeList.size(); i++) {
             for (int j = 0; j < squareList.size(); j++) {
-                if ( squareList.get(j) == cubeList.get(i) ) {
+                if (squareList.get(j) == cubeList.get(i)) {
                     return 0;
                 }
             }
         }
         Instant stop_time = Instant.now();
-        System.out.println(Duration.between(start_time, stop_time).toNanos()+" ns");
+        System.out.println(Duration.between(start_time, stop_time).toNanos() + " ns");
         return 1;
     }
 
     public static int isIsolatedSimple(long n) {
         Instant start_time = Instant.now();
-        if ( n <= 0 || n > 2097151 ) {
+        if (n <= 0 || n > 2097151) {
             return -1;
         }
 
         long square = 0;
         long cube = 0;
 
-        if ( n * n * n < Long.MAX_VALUE) {
+        if (n * n * n < Long.MAX_VALUE) {
             square = n * n;
             cube = n * n * n;
         } else {
             return -1;
         }
 
-        while ( square > 0) {
-            while ( cube > 0) {
-                if ( cube % 10 == square % 10 ) {
+        while (square > 0) {
+            while (cube > 0) {
+                if (cube % 10 == square % 10) {
                     return 0;
                 }
                 cube /= 10;
@@ -64,7 +64,7 @@ public class Q801isIsolated {
             square /= 10;
         }
         Instant stop_time = Instant.now();
-        System.out.println(Duration.between(start_time, stop_time).toNanos()+" ns");
+        System.out.println(Duration.between(start_time, stop_time).toNanos() + " ns");
         return 1;
     }
 
