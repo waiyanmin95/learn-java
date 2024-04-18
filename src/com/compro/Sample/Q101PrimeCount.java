@@ -1,7 +1,7 @@
 package compro.Sample;
 
 public class Q101PrimeCount {
-//    public static boolean isPrime(int n) {
+    //    public static boolean isPrime(int n) {
 //        int count = 0;
 //        for (int i = 1; i <= n ; i++) {
 //            if ( n % i == 0) {
@@ -15,8 +15,8 @@ public class Q101PrimeCount {
             return false;
         }
 
-        for (int i = 2; i <= n / 2 ; i++) {
-            if ( n % i == 0 ) {
+        for (int i = 2; i <= n / 2; i++) {
+            if (n % i == 0) {
                 return false;
             }
         }
@@ -24,25 +24,26 @@ public class Q101PrimeCount {
     }
 
     public static int primeCount(int start, int end) {
-        if ( start > end ) {
+        if (start > end) {
             return 0;
         }
         int count = 0;
-        for (int i = start; i <= end ; i++) {
+        for (int i = start; i <= end; i++) {
             if (isPrime(i)) {
                 count++;
             }
         }
         return count;
     }
+
     public static void main(String[] args) {
         System.out.println(isPrime(7));
-        System.out.println(primeCount(10 , 30));
-        System.out.println(primeCount(11 , 29));
-        System.out.println(primeCount(20 , 22));
-        System.out.println(primeCount(1 , 1));
-        System.out.println(primeCount(5 , 5));
-        System.out.println(primeCount(6 , 2));
-        System.out.println(primeCount(-10 , 6));
+        System.out.println(primeCount(10, 30));
+        System.out.println(primeCount(11, 29));
+        System.out.println(primeCount(20, 22));
+        System.out.println(primeCount(1, 1));
+        System.out.println(primeCount(5, 5));
+        System.out.println(primeCount(6, 2));
+        System.out.println(primeCount(-10, 6));
     }
 }

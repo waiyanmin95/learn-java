@@ -4,7 +4,7 @@ public class Q14SumFactor {
     public static int sumFactor(int[] n) {
         int sum = 0;
 
-        for (int num: n) {
+        for (int num : n) {
             sum += num;
         }
         int resultCount = 0;
@@ -17,8 +17,8 @@ public class Q14SumFactor {
     }
 
     public static void main(String[] args) {
-        int[] test1 =  {1, -1, 1, -1, 1, -1, 1};
-        int[] test2 = { 1, 2, 3, 4};
+        int[] test1 = {1, -1, 1, -1, 1, -1, 1};
+        int[] test2 = {1, 2, 3, 4};
         System.out.println(sumFactor(test1));
         System.out.println(sumFactor(test2));
     }

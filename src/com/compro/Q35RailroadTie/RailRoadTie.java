@@ -1,22 +1,22 @@
 package compro.Q35RailroadTie;
 
 public class RailRoadTie {
-    public static int isRailroadTie(int[ ] a) {
-        if ( a.length == 0 || a[0] == 0 || a[a.length-1] == 0) {
+    public static int isRailroadTie(int[] a) {
+        if (a.length == 0 || a[0] == 0 || a[a.length - 1] == 0) {
             return 0;
         }
         int zeroIndex = 0;
         int zeroCount = 0;
         for (int i = 0; i < a.length; i++) {
-            if ( a[i] == 0 ) {
+            if (a[i] == 0) {
                 zeroCount++;
                 zeroIndex = i;
-                if ( a[zeroIndex+1] == 0 || a[zeroIndex-1] == 0) {
+                if (a[zeroIndex + 1] == 0 || a[zeroIndex - 1] == 0) {
                     return 0;
                 }
             }
         }
-        if ( zeroCount == 0 ) {
+        if (zeroCount == 0) {
             return 0;
         }
         return 1;

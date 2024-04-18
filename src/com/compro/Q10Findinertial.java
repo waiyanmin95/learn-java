@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Q10Findinertial {
     static int isInertialGod(int[] a) {
-        if(a.length < 2) {
+        if (a.length < 2) {
             return 0;
         }
         //find the odd
@@ -14,37 +14,38 @@ public class Q10Findinertial {
         int max = 0;
         ArrayList<Integer> oddsArr = new ArrayList<>();
         ArrayList<Integer> evensArr = new ArrayList<>();
-        for( int i = 0 ; i < a.length; i++) {
+        for (int i = 0; i < a.length; i++) {
             if (max < a[i]) {
                 max = a[i];
-                if( max % 2 == 0 ) {
+                if (max % 2 == 0) {
                     maxisEven = true;
                 }
             }
-            if( a[i] % 2 != 0) {
+            if (a[i] % 2 != 0) {
                 odd = true;
                 oddsArr.add(a[i]);
             }
-            if( a[i] != max && a[i] % 2 == 0) {
+            if (a[i] != max && a[i] % 2 == 0) {
                 evensArr.add(a[i]);
             }
         }
 
-        for (int k = 0 ; k < oddsArr.size(); k++) {
-            for (int y = 0 ; y < evensArr.size(); y++) {
+        for (int k = 0; k < oddsArr.size(); k++) {
+            for (int y = 0; y < evensArr.size(); y++) {
                 if (oddsArr.get(k) < evensArr.get(y)) {
                     return 0;
                 }
             }
         }
 
-        if( odd && maxisEven) {
+        if (odd && maxisEven) {
             return 1;
         }
         return 0;
     }
+
     public static int isInertial(int[] arr) {
-        if ( arr.length <= 1 ) {
+        if (arr.length <= 1) {
             return 0;
         }
         int even = 0;
@@ -54,10 +55,10 @@ public class Q10Findinertial {
         List<Integer> evenArr = new ArrayList<>();
         List<Integer> oddArr = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
-            if ( arr[i] > max ) {
+            if (arr[i] > max) {
                 max = arr[i];
             }
-            if ( arr[i] % 2 ==  0) {
+            if (arr[i] % 2 == 0) {
                 evenArr.add(arr[i]);
                 even++;
             } else {
@@ -67,16 +68,16 @@ public class Q10Findinertial {
         }
 
         for (Integer o : oddArr) {
-            for (Integer e: evenArr) {
-                if ( e != max ) { // if e == max > skip the loop
-                    if (e > o ) {
+            for (Integer e : evenArr) {
+                if (e != max) { // if e == max > skip the loop
+                    if (e > o) {
                         return 0;
                     }
                 }
             }
         }
 
-        if ( (max % 2 == 0) && (odd >= 1) ) {
+        if ((max % 2 == 0) && (odd >= 1)) {
             return 1;
         }
 
@@ -89,13 +90,13 @@ public class Q10Findinertial {
         int[] test3 = {12, 11, 4, 9, 2, 7, 3, 10}; // 0
         int[] test4 = {12, 11, 4, 9, 2, 7, 6}; // 1
         int[] allzero = {0, 0, 0, 0, 0, 0}; // 0
-        System.out.println("Own: "+isInertial(test1));
-        System.out.println("Own: "+isInertial(test2));
-        System.out.println("Own: "+isInertial(test3));
-        System.out.println("Own: "+isInertial(test4));
-        System.out.println("Own all zero: "+isInertial(allzero));
+        System.out.println("Own: " + isInertial(test1));
+        System.out.println("Own: " + isInertial(test2));
+        System.out.println("Own: " + isInertial(test3));
+        System.out.println("Own: " + isInertial(test4));
+        System.out.println("Own all zero: " + isInertial(allzero));
 
-        System.out.println("God: "+isInertialGod(test4));
-        System.out.println("God all zero: "+isInertialGod(allzero));
+        System.out.println("God: " + isInertialGod(test4));
+        System.out.println("God all zero: " + isInertialGod(allzero));
     }
 }

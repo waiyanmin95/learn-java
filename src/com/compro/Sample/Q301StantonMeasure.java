@@ -2,12 +2,12 @@ package compro.Sample;
 
 public class Q301StantonMeasure {
     public static int stantonMeasure(int[] a) {
-        if ( a.length == 0 ) {
+        if (a.length == 0) {
             return 0;
         }
         int oneCount = 0;
         for (int i = 0; i < a.length; i++) {
-            if ( a[i] == 1 ) {
+            if (a[i] == 1) {
                 oneCount++;
             }
         }

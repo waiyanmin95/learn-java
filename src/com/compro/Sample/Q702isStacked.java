@@ -2,18 +2,18 @@ package compro.Sample;
 
 public class Q702isStacked {
     public static int isStacked(int n) {
-        if ( n < 0 ) {
+        if (n < 0) {
             return 0;
         }
         int sum = 0;
         int i = 1;
-        while ( i <= n ) {
+        while (i <= n) {
             sum += i;
 //            System.out.println("I: "+i);
-            if ( sum > n ) {
+            if (sum > n) {
                 break;
             }
-            if ( sum == n ) {
+            if (sum == n) {
                 return 1;
             }
             i++;

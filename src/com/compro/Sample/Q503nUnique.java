@@ -2,14 +2,14 @@ package compro.Sample;
 
 public class Q503nUnique {
     public static int isNUnique(int[] a, int n) {
-        if ( a.length < 2) {
+        if (a.length < 2) {
             return 0;
         }
         int count = 0;
-        for (int i = 0; i < a.length ; i++) {
+        for (int i = 0; i < a.length; i++) {
             for (int j = i; j < a.length; j++) {
 //                System.out.println("I: "+a[i] + " " +"J: "+a[j] + " Sum: " + (a[i] + a[j]) ) ;
-                if ( a[i] + a[j] == n && i != j ) {
+                if (a[i] + a[j] == n && i != j) {
                     count++;
                 }
             }

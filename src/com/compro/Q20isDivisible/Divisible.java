@@ -2,7 +2,7 @@ package compro.Q20isDivisible;
 
 public class Divisible {
     public static int isDivisible(int[] arr, int d) {
-        if ( arr.length < 1 ) {
+        if (arr.length < 1) {
             return 0;
         }
         for (int j : arr) {
@@ -14,8 +14,8 @@ public class Divisible {
     }
 
     public static void main(String[] args) {
-        int[] test1 = new int[]{ 22, 44 , 66, 88, 100 };
-        int[] test2 = new int[]{ 23, 43 , 63, 83, 103 };
+        int[] test1 = new int[]{22, 44, 66, 88, 100};
+        int[] test2 = new int[]{23, 43, 63, 83, 103};
         int[] naked = new int[]{};
         int[] one = new int[]{4};
         System.out.println(isDivisible(test1, 2));

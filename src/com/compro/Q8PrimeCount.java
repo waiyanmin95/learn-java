@@ -14,11 +14,12 @@ public class Q8PrimeCount {
         }
         return true;
     }
+
     public static int primeCount(int start, int end) {
         int pcount = 0;
 
-        for (int i = start; i <= end; i ++) {
-            if ( isPrime(i)) {
+        for (int i = start; i <= end; i++) {
+            if (isPrime(i)) {
                 pcount++;
             }
         }

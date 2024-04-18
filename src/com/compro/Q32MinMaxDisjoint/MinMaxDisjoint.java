@@ -1,8 +1,8 @@
 package compro.Q32MinMaxDisjoint;
 
 public class MinMaxDisjoint {
-    public static int isMinMaxDisjoint(int[ ] a) {
-        if ( a.length < 3 ) {
+    public static int isMinMaxDisjoint(int[] a) {
+        if (a.length < 3) {
             return 0;
         }
         int min = a[0];
@@ -12,20 +12,20 @@ public class MinMaxDisjoint {
         int minCount = 0;
         int maxCount = 0;
         for (int i = 0; i < a.length; i++) {
-            if ( a[i] > max ) {
+            if (a[i] > max) {
                 max = a[i];
                 maxIndex = i;
             }
-            if ( a[i] < min) {
+            if (a[i] < min) {
                 min = a[i];
                 minIndex = i;
             }
         }
         for (int i = 0; i < a.length; i++) {
-            if ( min == a[i]) {
+            if (min == a[i]) {
                 minCount++;
             }
-            if ( max == a[i]) {
+            if (max == a[i]) {
                 maxCount++;
             }
         }
@@ -37,7 +37,7 @@ public class MinMaxDisjoint {
 //        System.out.println("max value: "+max);
 //        System.out.println(minCount);
 //        System.out.println(maxCount);
-        if ( minCount == 1 && maxCount == 1 && ( (minIndex + 1) != maxIndex ) && (minIndex - 1) != maxIndex ) {
+        if (minCount == 1 && maxCount == 1 && ((minIndex + 1) != maxIndex) && (minIndex - 1) != maxIndex) {
             return 1;
         }
         return 0;

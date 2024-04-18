@@ -2,13 +2,13 @@ package compro.Sample;
 
 public class Q303GuthrieIndex {
     public static int GuthrieIndex(int n) {
-        if ( n <= 0 ) {
+        if (n <= 0) {
             return 0;
         }
         int temp = n;
         int count = 0;
         while (temp != 1) {
-            if ( temp % 2 == 0 ) {
+            if (temp % 2 == 0) {
                 temp = temp / 2;
             } else {
                 temp = (temp * 3) + 1;

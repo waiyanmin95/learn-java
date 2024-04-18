@@ -2,7 +2,7 @@ package compro.Sample;
 
 public class Q302SumFactor {
     public static int sumFactor(int[] a) {
-        if ( a.length == 0 ) {
+        if (a.length == 0) {
             return 0;
         }
         int sum = 0;
@@ -11,7 +11,7 @@ public class Q302SumFactor {
         }
         int count = 0;
         for (int i = 0; i < a.length; i++) {
-            if ( sum == a[i]) {
+            if (sum == a[i]) {
                 count++;
             }
         }

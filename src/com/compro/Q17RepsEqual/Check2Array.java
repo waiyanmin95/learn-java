@@ -4,12 +4,12 @@ import java.util.Arrays;
 
 public class Check2Array {
     public static int repsEqual(int[] a, int n) {
-        if ( a.length == 0 ) {
+        if (a.length == 0) {
             return 0;
         }
         String str = Arrays.toString(a).replaceAll(", |\\[|\\]", "");
         System.out.println(str);
-        if ( n == Integer.parseInt(str)) {
+        if (n == Integer.parseInt(str)) {
             return 1;
         }
         return 0;

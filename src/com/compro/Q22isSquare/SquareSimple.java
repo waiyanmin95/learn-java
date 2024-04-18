@@ -2,10 +2,10 @@ package compro.Q22isSquare;
 
 public class SquareSimple {
     public static boolean isSquare(int n) {
-        if ( n <= 2 ) {
+        if (n <= 2) {
             return false;
         }
-        for (int i = 1; i <= n/2; i++) {
+        for (int i = 1; i <= n / 2; i++) {
             System.out.println(i);
             if (i * i == n) {
                 return true;

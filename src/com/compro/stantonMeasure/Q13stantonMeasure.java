@@ -8,20 +8,20 @@ package compro.stantonMeasure;
 // because 1 occurs 3 times in the array and 3 occurs 1 time.
 
 public class Q13stantonMeasure {
-    public static int stantonMeasure(int[ ] n) {
+    public static int stantonMeasure(int[] n) {
         int count = 0;
         int check = 0;
         for (int i = 0; i < n.length; i++) {
-            if ( 1 == n[i] ) {
+            if (1 == n[i]) {
                 count++;
             }
         }
 
         for (int i = 0; i < n.length; i++) {
-            if ( count < 1 ) {
+            if (count < 1) {
                 return 0;
             }
-            if ( count == n[i] )
+            if (count == n[i])
                 check++;
         }
 

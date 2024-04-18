@@ -1,29 +1,29 @@
 package compro.ArrayMatches;
 
 public class Matches {
-    public  static int matches(int[] a, int[] p) {
+    public static int matches(int[] a, int[] p) {
         int len = 0;
 
         for (int i = 0; i < p.length; i++) {
             len += Math.abs(p[i]);
         }
 
-        if ( len != a.length ) {
+        if (len != a.length) {
             return 0;
         }
 
         int index = 0;
         for (int i = 0; i < p.length; i++) {
-            if ( p[i] > 0 ) {
+            if (p[i] > 0) {
                 for (int j = 0; j < p[i]; j++) {
-                    if ( a[j+index] < 0 ) {
+                    if (a[j + index] < 0) {
                         return 0;
                     }
                 }
                 index += p[i];
             } else {
                 for (int k = 0; k < Math.abs(p[i]); k++) {
-                    if ( a[k+index] > 0 ) {
+                    if (a[k + index] > 0) {
                         return 0;
                     }
                 }
@@ -38,11 +38,11 @@ public class Matches {
         int[] P0 = {3, -2, 3};
         int[] P1 = {2, 1, -1, -1, 2, 1};
         int[] P2 = {1, 2, -1, -1, 1, 2};
-        int[] P3 =  {2, 1, -2, 3};
-        int[] P4 =  {1, 1, 1, -1, -1, 1, 1, 1};
+        int[] P3 = {2, 1, -2, 3};
+        int[] P4 = {1, 1, 1, -1, -1, 1, 1, 1};
 
-        int[] P5 =  {4, -1, 3};
-        int[] P6 =  {2, -3, 3};
+        int[] P5 = {4, -1, 3};
+        int[] P6 = {2, -3, 3};
         // true cases
         System.out.println(matches(A, P0));
         System.out.println(matches(A, P1));

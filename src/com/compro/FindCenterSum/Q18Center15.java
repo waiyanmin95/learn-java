@@ -1,10 +1,10 @@
 package compro.FindCenterSum;
 
 public class Q18Center15 {
-    public static  int isCentered15God(int[] a) {
-        for (int i = 0; i <= a.length/2; i++) {
+    public static int isCentered15God(int[] a) {
+        for (int i = 0; i <= a.length / 2; i++) {
             int sum = 0;
-            for (int j = i; j < ( a.length - i); j++) {
+            for (int j = i; j < (a.length - i); j++) {
                 sum += a[j];
             }
             if (sum == 15)

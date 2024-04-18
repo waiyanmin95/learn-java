@@ -1,7 +1,7 @@
 package compro;
 
 public class Q2 {
-    public  static int maxDistance(int num) {
+    public static int maxDistance(int num) {
         if (num <= 1) {
             return -1;
         }
@@ -25,6 +25,7 @@ public class Q2 {
         }
         return maxFactor - minFactor;
     }
+
     public static void main(String[] args) {
         System.out.println(maxDistance(49));
         System.out.println(maxDistance(119));

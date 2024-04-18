@@ -4,18 +4,18 @@ public class FindSmallest {
 
     public static int smallest(int n) {
         int small = 124;
-        if ( n <= 0 ) {
+        if (n <= 0) {
             return small;
         }
         while (true) {
             int count = 1;
             for (int i = 1; i <= n; i++) {
-                if ( !containsTwo(small*i)) {
+                if (!containsTwo(small * i)) {
                     break;
                 }
                 count++;
             }
-            if ( count > n ) {
+            if (count > n) {
                 return small;
             }
             small++;

@@ -4,10 +4,10 @@ public class StackorNot {
     public static int isStacked(int n) {
         int sum = 0;
         int result = 0;
-        for (int i = 0; i <= n/2; i++) {
+        for (int i = 0; i <= n / 2; i++) {
             sum = i + 1;
             result += sum;
-            if ( result == n ) {
+            if (result == n) {
                 return 1;
             }
         }

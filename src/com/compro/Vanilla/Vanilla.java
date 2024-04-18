@@ -2,7 +2,7 @@ package compro.Vanilla;
 
 public class Vanilla {
     public static int isVanilla(int[] a) {
-        if ( a.length == 0 ) {
+        if (a.length == 0) {
             return 1;
         }
         int num = a[0] % 10;
@@ -10,7 +10,7 @@ public class Vanilla {
             String each = String.valueOf(a[i]); // get the length of each element
             int temp = a[i]; // holder for modification
             for (int j = 0; j < each.length(); j++) { // loop through each element of the holder
-                if ( temp % 10 != num) {
+                if (temp % 10 != num) {
                     return 0;
                 }
                 temp = temp / 10;
@@ -21,18 +21,18 @@ public class Vanilla {
     }
 
     public static int isVanillaWhile(int[] a) {
-        if ( a.length == 0 ) {
+        if (a.length == 0) {
             return 1;
         }
         int num = a[0] % 10;
         for (int i = 0; i < a.length; i++) {
             int temp = a[i]; // holder for modification
-            while ( true ) {
-                if ( temp % 10 != num ) {
+            while (true) {
+                if (temp % 10 != num) {
                     return 0;
                 }
                 temp = temp / 10;
-                if ( temp == 0 ) {
+                if (temp == 0) {
                     break;
                 }
             }

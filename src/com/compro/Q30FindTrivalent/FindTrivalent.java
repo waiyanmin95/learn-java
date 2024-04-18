@@ -4,14 +4,14 @@ import java.util.HashSet;
 
 public class FindTrivalent {
     public static int isTrivalent(int[] a) {
-        if ( a.length < 3 ) { // check base case
+        if (a.length < 3) { // check base case
             return 0;
         }
         HashSet<Integer> set = new HashSet<>();
         for (int i = 0; i < a.length; i++) {
             set.add(a[i]);
         }
-        if ( set.size() != 3 ) {
+        if (set.size() != 3) {
             return 0;
         }
         return 1;

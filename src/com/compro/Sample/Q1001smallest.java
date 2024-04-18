@@ -2,20 +2,20 @@ package compro.Sample;
 
 public class Q1001smallest {
     public static int smallest(int n) {
-        if ( n < 1 ) {
+        if (n < 1) {
             return 0;
         }
         int i = 1;
         while (true) {
             int count = 0;
-            for (int j = 1; j <= n ; j++) {
+            for (int j = 1; j <= n; j++) {
                 if (containTwo(j * i)) {
                     count++;
                 } else {
                     break;
                 }
             }
-            if ( count == n ) {
+            if (count == n) {
                 return i;
             }
             i++;
@@ -23,8 +23,8 @@ public class Q1001smallest {
     }
 
     public static boolean containTwo(int n) {
-        while ( n > 0 ) {
-            if ( n % 10 == 2) {
+        while (n > 0) {
+            if (n % 10 == 2) {
                 return true;
             }
             n = n / 10;

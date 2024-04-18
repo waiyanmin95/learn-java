@@ -31,6 +31,7 @@ public class findPorcupine {
             num++;
         }
     }
+
     public static void main(String[] args) {
         System.out.println(isPorcupineNumber(409));
     }

@@ -3,10 +3,10 @@ package compro.Sample;
 public class Q601isSquare {
     public static int isSquare(int n) {
         int temp = 0;
-        while ( temp * temp < n) {
+        while (temp * temp < n) {
             temp++;
         }
-        return temp * temp == n ? 1:0;
+        return temp * temp == n ? 1 : 0;
     }
 
     public static void main(String[] args) {

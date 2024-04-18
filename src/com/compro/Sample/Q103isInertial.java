@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Q103isInertial {
     public static int isInertial(int[] a) {
-        if ( a.length == 0 ) {
+        if (a.length == 0) {
             return 0;
         }
 
@@ -27,7 +27,7 @@ public class Q103isInertial {
 
         for (int i = 0; i < oddList.size(); i++) {
             for (int j = 0; j < evenList.size(); j++) {
-                if ((oddList.get(i) < evenList.get(j) && evenList.get(j) != maxValue) || (oddList.get(i) > maxValue )) {
+                if ((oddList.get(i) < evenList.get(j) && evenList.get(j) != maxValue) || (oddList.get(i) > maxValue)) {
                     return 0;
                 } else {
                     return 1;

@@ -2,14 +2,14 @@ package compro.Sample;
 
 public class Q701matches {
     public static int matches(int[] a, int[] p) {
-        if ( a.length < 1 || p.length < 1) {
+        if (a.length < 1 || p.length < 1) {
             return 0;
         }
         int index = 0;
         for (int i = 0; i < p.length; i++) {
             for (int j = 0; j < Math.abs(p[i]); j++) {
-                if ( (p[i] > 0 && a[index] < 0) || (p[i] < 0 && a[index] > 0)) {
-                   return 0;
+                if ((p[i] > 0 && a[index] < 0) || (p[i] < 0 && a[index] > 0)) {
+                    return 0;
                 }
                 index++;
             }

@@ -16,18 +16,19 @@ public class Q19PerfectNumber {
         }
         return sum == n;
     }
+
     public static int henry(int i, int j) {
         int number = 0;
         List<Integer> xi = new ArrayList<>();
         for (int k = 0; k < Integer.MAX_VALUE; k++) {
-            if ( isPerfectNumber(k) ) {
+            if (isPerfectNumber(k)) {
                 number = k;
                 xi.add(number);
             }
         }
 
-        i = xi.get(i-1);
-        j = xi.get(j-1);
+        i = xi.get(i - 1);
+        j = xi.get(j - 1);
 
         return i + j;
     }

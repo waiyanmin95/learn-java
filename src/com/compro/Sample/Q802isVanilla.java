@@ -2,7 +2,7 @@ package compro.Sample;
 
 public class Q802isVanilla {
     public static int isVanilla(int[] a) {
-        if ( a.length <= 1 ) {
+        if (a.length <= 1) {
             return 1;
         }
         int first = a[0] % 10;

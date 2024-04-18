@@ -2,15 +2,15 @@ package compro.Sample;
 
 public class Q1101fullnessQuotient {
     public static int fullnessQutient(int n) {
-        if ( n < 0 ) {
+        if (n < 0) {
             return -1;
         }
         int count = 0;
         for (int base = 2; base <= 9; base++) {
             int temp = n;
             int isZero = 0;
-            while ( temp > 0) {
-                if ( temp % base == 0 ) {
+            while (temp > 0) {
+                if (temp % base == 0) {
                     isZero = 1;
                     break;
                 }

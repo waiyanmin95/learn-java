@@ -2,7 +2,7 @@ package compro.Sample;
 
 public class Q903isMinMaxDisjoint {
     public static int isMinMaxDisjoint(int[] a) {
-        if ( a.length < 3 ) {
+        if (a.length < 3) {
             return 0;
         }
 
@@ -14,11 +14,11 @@ public class Q903isMinMaxDisjoint {
         int maxCount = 0;
 
         for (int i = 1; i < a.length; i++) {
-            if ( a[i] > max) {
+            if (a[i] > max) {
                 max = a[i];
                 maxIndex = i;
             }
-            if ( a[i] < min) {
+            if (a[i] < min) {
                 min = a[i];
                 minIndex = i;
             }
@@ -33,7 +33,7 @@ public class Q903isMinMaxDisjoint {
             }
         }
 
-        if ( min == max || minIndex + 1 ==  maxIndex  || minIndex - 1 == maxIndex || maxCount != 1 | minCount != 1  ) {
+        if (min == max || minIndex + 1 == maxIndex || minIndex - 1 == maxIndex || maxCount != 1 | minCount != 1) {
             return 0;
         }
         return 1;

@@ -13,14 +13,15 @@ public class Q3Carry {
         }
         return milage;
     }
-        public static void main (String[]args){
-            int[] one = {8, 9, 9, 5, 0};
-            int[] two = {8, 9, 9, 5, 0};
-            int[] three = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9};
-            int[] four = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9};
-            System.out.println(Arrays.toString(updateMileage(one, 1)));
-            System.out.println(Arrays.toString(updateMileage(two, 2)));
-            System.out.println(Arrays.toString(updateMileage(three,1)));
-            System.out.println(Arrays.toString(updateMileage(four, 13)));
-        }
+
+    public static void main(String[] args) {
+        int[] one = {8, 9, 9, 5, 0};
+        int[] two = {8, 9, 9, 5, 0};
+        int[] three = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9};
+        int[] four = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9};
+        System.out.println(Arrays.toString(updateMileage(one, 1)));
+        System.out.println(Arrays.toString(updateMileage(two, 2)));
+        System.out.println(Arrays.toString(updateMileage(three, 1)));
+        System.out.println(Arrays.toString(updateMileage(four, 13)));
     }
+}

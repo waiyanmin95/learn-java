@@ -23,26 +23,27 @@ public class Q7Upcount {
         return count;
     }
 
-    static int nUpCount(int[] a, int n){
+    static int nUpCount(int[] a, int n) {
         int nUpCount = 0;
         int partialSum = 0;
         int previousPartialSum = 0;
-        for(int i=0; i<a.length; i++){
+        for (int i = 0; i < a.length; i++) {
             previousPartialSum = partialSum;
             partialSum += a[i];
-            if(previousPartialSum <= n && partialSum > n){
+            if (previousPartialSum <= n && partialSum > n) {
                 nUpCount++;
             }
         }
         return nUpCount;
     }
+
     public static void main(String[] args) {
         int[] test1 = {2, 3, 1, -6, 8, -3, -1, 2};
         int[] test2 = {2, 3, 5, 6, 7, 8};
         int[] test3 = {1, 1, 1, 1};
-        System.out.println("Upcount: " +Upcount(test1, 4));
-        System.out.println("Upcount: " +Upcount(test2, 10));
-        System.out.println("Upcount: " +Upcount(test3, 5));
-        System.out.println("Upcount: " +nUpCount(test2, 5));
+        System.out.println("Upcount: " + Upcount(test1, 4));
+        System.out.println("Upcount: " + Upcount(test2, 10));
+        System.out.println("Upcount: " + Upcount(test3, 5));
+        System.out.println("Upcount: " + nUpCount(test2, 5));
     }
 }
