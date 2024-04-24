@@ -41,10 +41,10 @@ public class Q1703encodeArray {
     }
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(encodeArray(0)));
-        System.out.println(Arrays.toString(encodeArray(1)));
-        System.out.println(Arrays.toString(encodeArray(-1)));
-        System.out.println(Arrays.toString(encodeArray(100001)));
+//        System.out.println(Arrays.toString(encodeArray(0)));
+//        System.out.println(Arrays.toString(encodeArray(1)));
+//        System.out.println(Arrays.toString(encodeArray(-1)));
+//        System.out.println(Arrays.toString(encodeArray(100001)));
         System.out.println(Arrays.toString(encodeArray(999)));
     }
 }

@@ -11,7 +11,7 @@ public class Q1401largestPrimeFactor {
             }
             temp++;
         }
-        System.out.println(largest);
+        System.out.println("Largest: " + largest);
         return largest;
     }
 

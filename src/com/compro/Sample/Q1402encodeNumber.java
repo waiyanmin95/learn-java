@@ -21,13 +21,13 @@ public class Q1402encodeNumber {
         int[] result = new int[size];
 
         int i = 0;
-        int facftor = n;
+        factor = n;
         int index = 0;
         while (i <= n) {
             if (isPrime(i)) {
-                while ((facftor % i == 0)) {
-                    if (facftor % i == 0) {
-                        facftor = facftor / i;
+                while ((factor % i == 0)) {
+                    if (factor % i == 0) {
+                        factor = factor / i;
                         result[index] = i;
                         index++;
                     }
