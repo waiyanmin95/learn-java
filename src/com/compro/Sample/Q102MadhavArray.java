@@ -12,9 +12,11 @@ public class Q102MadhavArray { //todo
                 n++;
             }
         }
+        
         if (!isCorrectLength) {
             return 0;
         }
+
         int num = 2;
         for (int i = 1; i < a.length; ) {
             int sum = 0;
