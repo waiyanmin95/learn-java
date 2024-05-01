@@ -32,9 +32,7 @@ public class Q1903closestFibonacci {
             if (fibonacci > n) return fibo2;
             fibo1 = fibo2;
             fibo2 = fibonacci;
-
         }
-
         return 0;
     }
 
