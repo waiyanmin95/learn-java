@@ -25,7 +25,7 @@ public class Q5003isHollow {
             }
         }
 //        System.out.println(zeroCount);
-        if (a.length - end == start && zeroCount > 2) {
+        if (a.length - end == start && zeroCount >= 3) {
             return 1;
         }
         return 0;
@@ -40,6 +40,5 @@ public class Q5003isHollow {
         System.out.println(isHollow(new int[]{1, 2, 0, 0, 0, 3, 4, 0}));
         System.out.println(isHollow(new int[]{0, 1, 2, 0, 0, 0, 3, 4}));
         System.out.println(isHollow(new int[]{0, 0, 0}));
-
     }
 }
